@@ -1,0 +1,69 @@
+<?php # Script 2.2 - header.html
+
+// This page begins the HTML header for the site.
+
+// Check for a $page_title value:
+if (!isset($page_title)) $page_title = 'Default Page Title';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title><?php echo $page_title; ?></title>
+<link href="./includes/style.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+</head>
+<body>
+
+<!--
+	<div id="header">
+	  <h1>Iyad Shobaki</h1>
+	  <p>Portfolio</p>
+	</div>
+-->
+	<div class="header">
+    <h2 class="logo">IYAD SHOBAKI</h2>
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+            <i class="fas fa-bars"></i>
+         
+        </label>
+        <ul class="menu">
+            <a href="index.php">Home</a>
+            <a href="index.php?p=Experience">Work Experience</a>
+            <a href="index.php?p=Education">Education</a>
+            
+            <a href="index.php?p=contact">Contact</a>
+            <label for="chk" class="hide-menu-btn">
+         <i class="fas fa-times"></i>
+        </label>
+        
+        </ul>
+        
+    </div>
+    
+
+    
+	  <div id="sidebar">
+          <img src="images/1.jpg" alt="Iyad picture">
+          <br>
+	    
+	    <a href="https://github.com/IyadShobaki" target="_blank">Github</a>&nbsp<i class="fab fa-github"></i>
+          <br>
+          <a href="https://www.linkedin.com/in/iyadshobaki" target="_blank">LinkedIn</a>&nbsp<i class="fab fa-linkedin-in"></i>
+          <br>
+          <br>
+          <strong>Sample of my work</strong>
+          <br>
+          <a href="http://shobaki.unaux.com/Tulip-Store/index.php" target="_blank">Tulip Clothing Store</a>
+          <form name="form1" id="form1" method="get" action="index.php">
+	  	<input type="text" name="terms" placeholder="Search..." />
+	  	<input type="hidden" name="p" value="search" />
+	  	<input class=" button" type="submit" name="Submit" value="GO" />
+	  </form>
+    </div>
+    
+    <div id="container">
+	  <div id="content">
+	  	
+	<!-- End of header. -->

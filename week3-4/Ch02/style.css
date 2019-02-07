@@ -1,0 +1,374 @@
+*{
+margin:0;
+padding:0;
+    font-family: "montserrat", sans-serif;
+}
+.header{
+    height: 100px;
+    background: #34495e;
+    padding: 0 20px;
+    color: #fff;
+    
+}
+.logo{
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+    
+}
+.menu{
+    float: right;
+    line-height: 100px;
+    
+}
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+.show-menu-btn, .hide-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+.show-menu-btn{
+    float: right;
+}
+.show-menu-btn i{
+    line-height: 100px;
+}
+
+
+.menu a:hover,.show-menu-btn, .hide-menu-btn{
+    color:#3498db;
+    
+}
+#chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+}
+img{
+    width: 100%;
+    max-width: 700px;
+    margin: 20px 0;
+    
+}
+
+#container {
+            margin-top: 8px;
+			width: 80%;
+			font-family: Lucida Grande, Tahoma, Arial, Helvetica, sans-serif; 
+			font-size: 13px;
+			line-height: 1.6em;
+			color: black;
+            
+            border-radius: 10px 10px;
+            float: right;
+            
+         
+		}
+#container h2{
+   
+			
+			font-family: Georgia, serif;
+			
+		
+}
+#sidebar {
+			float: left;
+			width:10%;
+            line-height: 1.6em;
+            border: 1px solid black;
+            padding: 20px;
+            height: 100%;
+            background: #34495e;
+            position: absolute;
+            
+		}
+#sidebar img{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 30%;
+    background: #3c6382 no-repeat center;
+    background-size: cover;
+}
+#sidebar a{
+    color:#82ccdd;
+    text-decoration: none;
+		
+}
+#sidebar a:hover{
+  
+  background-color: #CC6714;
+  border: 1px solid #CC6714;
+  border-radius: 2px 9px 2px 9px;
+  box-shadow: 3px 7px 8px;
+     
+}
+body{
+    
+     background-image: url(images/leaf.jpg);
+  
+   background-position: center center;
+     background-attachment: fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+#footer {
+/*
+	width: 100wh;
+	height: 90vh;
+*/
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752,#23A6D5 , #bdc3c7 );
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+#content {
+/*
+	width: 100wh;
+	height: 90vh;
+*/
+	color: #fff;
+	background: linear-gradient(-45deg, #1abc9c, #9b59b6, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 25s ease infinite;
+	-moz-animation: Gradient 25s ease infinite;
+	animation: Gradient 25s ease infinite;
+}
+#save {
+/*
+	width: 100wh;
+	height: 90vh;
+*/
+	color: #fff;
+	background: linear-gradient(-45deg, #1abc9c, #9b59b6, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 25s ease infinite;
+	-moz-animation: Gradient 25s ease infinite;
+	animation: Gradient 25s ease infinite;
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+#content {
+    
+            width: 800px;
+			margin: auto;
+            padding:20px;
+            background-color: aquamarine;
+            opacity: 0.7;
+            border: 1px solid #575352;
+            border-radius: 10px 10px;
+           
+		}
+		
+		#content p {
+            
+			padding-bottom: 10px;
+			border-bottom: 1px solid #CC6714; 
+            border-bottom-right-radius: 45px;
+            border-bottom-width: 5px;
+		}
+
+
+
+#footer {
+            position: fixed;
+            width: 100%;
+			bottom: 0;			
+			background-color:#34495e;
+			padding: 0px 5px 0px 5px;
+            border: 4px solid #3498db;
+            border-radius: 10px 10px;
+            text-align: center;
+            
+		}
+
+
+		#footer p {
+			color:#89817f;
+			padding: 5px;
+		}
+		
+		#footer p a {
+			color: #89817f;
+			border-bottom: 1px dotted #89817f;
+		}
+		
+		#footer p a:hover {
+			color: #FFFFFF;
+			background-color:#575352;
+		}
+#save{
+    padding: 20px;
+    border:1px black solid;
+    width:500px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px 10px;
+    color: black;
+}
+.error{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px 10px; 
+    border: 1px black solid;
+    width:300px;
+    
+   
+    
+}
+	
+form{
+  width: 300px;
+    margin: auto;
+}
+        td{
+
+
+            width: 1px;
+        }
+		
+		input{
+			
+         font-size: 11px;
+         color: #CC6714;
+             
+         border-radius: 10px 10px;
+         box-shadow: 0 0 3px 3px;
+         padding: 5px;
+         margin-bottom: 15px;
+		}
+        textarea{
+        font-size: 11px;
+         color: #CC6714;
+            width: 55%;
+         border-radius: 10px 10px;
+         box-shadow: 0 0 3px 3px;
+         padding: 5px;
+         margin-bottom: 15px;
+        }
+        #btnSubmit{
+         font-weight: bold;
+          background-color: #b2bec3;
+           width: 60%; 
+        }
+
+td{
+    font-weight: bold;
+    font-size: 17px;
+   
+}
+@media screen and (max-width:800px){
+   .show-menu-btn,.hide-menu-btn{
+   display: block;
+    } 
+    .menu{
+        position: fixed;
+        width:100%;
+        height: 100vh;
+        background: #333;
+        right:-100%;
+        top:0;
+        text-align: center;
+        padding: 80px 0;
+        line-height: normal;
+        transition: 0.7s;
+        
+    }
+    .menu a{
+        display: block;
+        padding:20px;
+        
+    }
+    .hide-menu-btn{
+     position: absolute;
+        top:40px;
+        right: 40px;
+    }
+    #chk:checked ~ .menu {
+        right:0;
+        z-index: 1;
+    }
+    #sidebar{
+        width:20%;
+        
+    }
+    #container{
+        width: 70%;
+        
+    }
+    form{
+        margin: 0;
+       
+    }
+    #save{
+        margin: 0;
+    }
+    .error{
+        margin: 0;
+    }
+    #content{
+        display: inline-block;
+        width: 100%;
+    }
+    #sidebar{
+        height: 100%;
+    }
+    #save{
+        margin: 0;
+         width: 90%;
+    }
+    
+    .error{
+        width:80%;
+    }
+   
+}

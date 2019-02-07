@@ -1,0 +1,46 @@
+<?php # Script 2.2 - header.html
+
+// This page begins the HTML header for the site.
+
+// Check for a $page_title value:
+if (!isset($page_title)) $page_title = 'Default Page Title';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title><?php echo $page_title; ?></title>
+<link href="./includes/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+	<div id="header">
+	  <h1>Iyad Shobaki</h1>
+	  <p>My name first letter is "I" not "L" :)</p>
+	  	<form name="form1" id="form1" method="get" action="index.php">
+	  	<input type="text" name="terms" value="Search..." />
+	  	<input type="hidden" name="p" value="search" />
+	  	<input class=" button" type="submit" name="Submit" value="GO" />
+	  </form>
+	</div>
+	
+	<div id="navigation"> 
+		<ul id="navlist">
+			<li><a href="index.php">Home</a></li>
+			<li><a href="index.php?p=about">About Us</a></li>
+			<li><a href="index.php?p=Experience">Work Experience</a></li>
+			<li><a href="index.php?p=Education">Education</a></li>
+			<li><a href="index.php?p=contact">Contact</a></li>
+<li><p><strong>Sample of my work</strong><br/>  <a href="http://shobaki.unaux.com/Tulip-Store/index.php">Tulip Clothing Store</a></p></li>
+		</ul>
+
+  </div>
+	  <div id="sidebar">
+	    <h2>Links</h2>
+	    <a href="https://github.com/IyadShobaki">Github</a>
+          <br>
+          <a href="https://www.linkedin.com/in/iyadshobaki">LinkedIn</a>
+    </div>
+	  
+	  	<div id="content">
+	<!-- End of header. -->
