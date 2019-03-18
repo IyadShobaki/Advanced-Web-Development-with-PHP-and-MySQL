@@ -42,7 +42,14 @@ switch ($p) {
 		$page = 'search.inc.php';
 		$page_title = 'Search Results';
 		break;
-        
+    case 'admin':
+		$page = 'admin.inc.php';
+		$page_title = 'Admin';
+		break;
+    case 'ViewContacts':
+		$page = 'ViewContacts.inc.php';
+		$page_title = 'View Contacts';
+		break;
 	// Default is to include the main page.
 	default:
 		$page = 'main.inc.php';
