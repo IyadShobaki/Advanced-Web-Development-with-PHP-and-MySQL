@@ -1,0 +1,32 @@
+html{
+    background-color: aqua;
+}
+h1{
+    margin:auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+form{
+    border: 1px solid black;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+input{
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.result{
+    
+    border: 1px solid black;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
