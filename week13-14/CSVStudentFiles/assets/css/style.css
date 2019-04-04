@@ -1,0 +1,32 @@
+table tr th, table tr td{
+    font-size: 1rem;
+}
+.container{
+    padding: 20px;
+}
+.head{
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.btn i{
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    vertical-align: middle;
+}
+i.plus:before {
+    content: url(../images/add.png);
+}
+i.exp:before {
+    content: url(../images/export.png);
+}
+#importFrm{
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 2px dashed #007bff;
+}
